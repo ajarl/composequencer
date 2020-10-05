@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Composequencer" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">#ff324249</item>
+        <item name="colorPrimaryVariant">#ff0b1b22</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">#ffe1bee7</item>
+        <item name="colorSecondaryVariant">#ffaf8eb5</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="o_mr1">shortEdges</item>
+    </style>
+
+    <style name="Theme.Composequencer.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Composequencer.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>
